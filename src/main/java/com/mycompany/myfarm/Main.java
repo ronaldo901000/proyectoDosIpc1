@@ -12,8 +12,12 @@ import com.mycompany.myfarm.backend.InicioPrograma;
  */
 public class Main {
 
-    public static void main(String[] args) {
-        InicioPrograma inicio = new InicioPrograma();
-        inicio.iniciarPrograma();
-    }
+           public static void main(String[] args) {
+                      InicioPrograma inicio = new InicioPrograma();
+                      inicio.iniciarPrograma();
+           }
+
+           public void imprimir() {
+                      System.out.println("imprimiendo");
+           }
 }
