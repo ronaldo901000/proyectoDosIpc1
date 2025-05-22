@@ -17,7 +17,5 @@ public class Main {
                       inicio.iniciarPrograma();
            }
 
-           public void imprimir() {
-                      System.out.println("imprimiendo");
-           }
+
 }
